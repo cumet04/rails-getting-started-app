@@ -6,5 +6,5 @@ cd $(readlink -f $0 | xargs dirname)/../.. # workplace root
 echo 'install dev packages:'
 
 cd app
-# echo '[app] bundle'; bundle
+echo '[app] bundle'; bundle
 cd ..
