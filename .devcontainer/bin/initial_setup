@@ -7,4 +7,5 @@ echo 'install dev packages:'
 
 cd app
 echo '[app] bundle'; bundle
+echo '[app] db:reset'; bundle exec rails db:reset
 cd ..
